@@ -77,3 +77,10 @@ gap: 20px;
 .netflix-video-card {
 background: linear-gradient(rgb(2, 0, 0), rgb(9, 25, 25));
 }
+.footer{
+  margin: 20px 150px 10px 250px;
+}
+.footer-socials{
+display: flex;
+gap: 10px;
+}
