@@ -60,18 +60,18 @@ gap: 20px;
 }
 
 .netflix-carousel {
-  overflow: hidden;
+  overflow: visible;
 }
 
 
 .secondary-carousel .carousel-control-next {
   position: absolute;
-  right: -7vw;
+  right: -6vw;
 }
 
 .secondary-carousel .carousel-control-prev {
   position: absolute;
-  left: -7vw;
+  left: -6vw;
 }
 
 .netflix-video-card {
