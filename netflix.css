@@ -14,3 +14,66 @@ body {
 nav{
   background-color:black;
 }
+.main-container{
+  margin: 0px 20px 0px 20px;
+}
+.top-section{
+  display: flex;
+ justify-content: space-between;
+
+}
+.left-side{
+display: flex;
+gap: 20px;
+}
+.right-side{
+  display: flex; 
+}
+.netflix-video-card-wrapper {
+  position: relative;
+}
+
+.netflix-video-card-wrapper:hover > .netflix-video-card {
+  opacity: 1;
+  transform: translateY(-10vh);
+}
+
+.card-body, .card-img-top, .netflix-video-card, .card-footer {
+  opacity: 0;
+}
+
+.netflix-video-card-wrapper:hover .card-img-top,
+.netflix-video-card-wrapper:hover .card-body,
+.netflix-video-card-wrapper:hover .card-footer {
+  opacity: 1;
+  transition: opacity 2s;
+}
+
+.card-img-top, .card-body, .card-footer {
+  transition: opacity 1s;
+}
+
+.netflix-video-card {
+  z-index: 1;
+  position: absolute;
+  transition: all 1s;
+}
+
+.netflix-carousel {
+  overflow: hidden;
+}
+
+
+.secondary-carousel .carousel-control-next {
+  position: absolute;
+  right: -7vw;
+}
+
+.secondary-carousel .carousel-control-prev {
+  position: absolute;
+  left: -7vw;
+}
+
+.netflix-video-card {
+background: linear-gradient(rgb(2, 0, 0), rgb(9, 25, 25));
+}
