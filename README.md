@@ -6,3 +6,5 @@ Use bootstrap 4.6 grid system, optionally bootstrap components.
 Make sure to make the grids responsive and with the proper gutters.
 Animate every section to be revealed one after the other as soon as the page renders.
 ❕ N.B. Carousels are optional
+
+See final image attached for pictorial view of project
